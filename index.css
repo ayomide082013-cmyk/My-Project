@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+/* Style the header */
+header {
+  padding: 50px 20px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+#first {
+    background-image: url('images/study table.jpg'); 
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;                
+    padding: 100px 20px;         
+    text-align: center;          
+}
+
+.orangecolor_paragraph{
+  color:rgba(255, 68, 0, 0.89);
+}
+/* Button styles */
+.btn {
+   background: orangered;
+   color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-top: 20px; /* space from header text */
+}
+
+.btn:hover {
+  background: lightgray;
+}
+
+/* Responsive button adjustments */
+@media (max-width: 500px) {
+  .btn {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}
+.container{
+  
+}
